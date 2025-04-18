@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tansasction Tacking App</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .two img {
+        width: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="bankName">BANK OF ABC Pvt. Ltd.</h1>
+    </header>
+    <main>
+      <form method="dialog">
+        <input class="amount" type="text" placeholder="Enter Amount" />
+        <div class="buttons">
+          <button class="btn credit">Credit</button>
+          <button class="btn debit">Debit</button>
+          <button class="btn reset">Reset</button>
+        </div>
+      </form>
+      <div class="entries">
+        <table>
+          <tr>
+            <th class="ser">sr.no.</th>
+            <th class="cre">Diposit</th>
+            <th class="deb">Withdraw</th>
+            <th class="bal">Avail. Amount</th>
+          </tr>
+        </table>
+        <table class="addEntries"></table>
+        <table>
+          <tr>
+            <td class="ser">Total</td>
+            <td class="cre totalDiposit"></td>
+            <td class="deb totalWithraw"></td>
+            <td class="bal totalBalance"></td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <section class="one">
+          <div class="address">
+            <address>
+              Bank of abc pvt. ltd.,<br />
+              S.V.Road,<br />
+              mumbai - 400985.
+            </address>
+          </div>
+          <div class="contact">
+            <h4>122 8569 5478</h4>
+            <h4>122 2024 2525</h4>
+            <h4>122 2365 5412</h4>
+          </div>
+        </section>
+        <section class="two">
+          <img src="./assets/gmail.png" alt="mail" />
+          <img src="assets/google-maps.png" alt="google map" />
+          <img src="assets/whatsapp.png" alt="whatsapp" />
+          <img src="assets/linkedin.png" alt="linkedin" />
+          <img src="assets/facebook.png" alt="facebook" />
+        </section>
+        <section class="three">
+          <h5>@All Rights Resevred by bank of abc pvt. ltd. 2025</h5>
+        </section>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
